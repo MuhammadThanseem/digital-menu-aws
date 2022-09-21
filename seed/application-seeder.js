@@ -1,7 +1,7 @@
 var dbConfig = require('../config/config.json'),
     db = require('../config/dbConfig'),
     ObjectID = require('mongodb').ObjectID,
-    MongoClient = require('mongoose');
+    MongoClient = require('mongodb').MongoClient;
 
     MongoClient.connect(dbConfig.dbUrl, async (err, db) => {
         console.log('Seeding Application ......');
