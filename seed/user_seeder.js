@@ -2,7 +2,7 @@ const { ObjectID } = require('mongodb');
 var dbConfig = require('../config/config.json'),
     db = require('../config/dbConfig'),
     crypto = require('crypto'),
-    MongoClient = require('mongodb').MongoClient;
+    MongoClient = require('mongoose');
 var salt = crypto.randomBytes(16).toString('hex');
 MongoClient.connect(dbConfig.dbUrl, async (err, db) => {
 
