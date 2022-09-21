@@ -1,0 +1,10 @@
+{
+    "dbUrl": "mongodb://localhost:27017/DIGITAL-MENU",
+    "APPLICATIONS":"db_applications",
+    "USER":"db_user",
+    "CATEGORY":"db_category",
+    "PRODUCT":"db_product",
+    "TABLE":"db_table",
+    "CART":"db_cart",
+    "ORDER":"db_order"
+}
