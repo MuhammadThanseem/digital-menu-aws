@@ -1,6 +1,5 @@
 {
-    "dbUrl": "mongodb://elcomienzo:elcomienzo@ac-yuwbl8x-shard-00-00.wg0z7qw.mongodb.net:27017,ac-yuwbl8x-shard-00-01.wg0z7qw.mongodb.net:27017,ac-yuwbl8x-shard-00-02.wg0z7qw.mongodb.net:27017/DIGITAL-MENU?ssl=true&replicaSet=atlas-a1ri5y-shard-0&authSource=admin&retryWrites=true&w=majority",
-    "APPLICATIONS":"db_applications",
+    "dbUrl": "mongodb://localhost:27017/DIGITAL-MENU",
     "USER":"db_user",
     "CATEGORY":"db_category",
     "PRODUCT":"db_product",
